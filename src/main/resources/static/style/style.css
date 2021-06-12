@@ -1,0 +1,31 @@
+.detalhes-evento{
+    box-shadow: 0px 0px 5px gray;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.form-convidado{
+    box-shadow: 0px 0px 5px gray;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.tabela-convidados{
+    box-shadow: 0px 0px 5px gray;
+    padding-left: 15px;
+}
+
+.form-evento{
+    box-shadow: 0px 0px 5px gray;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.list-eventos{
+    box-shadow: 0px 0px 5px gray;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}

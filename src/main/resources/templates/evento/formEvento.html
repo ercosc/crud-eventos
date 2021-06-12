@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+    <link rel="stylesheet" href="style/style.css" />
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<title>Evento App</title>
+</head>
+
+<body>
+    <th:block th:include="navbar"></th:block>
+
+    <div class="container form-evento">
+
+        <th:block th:include="mensagemValidacao"></th:block>
+
+        <form  method="post">
+            <div class="row">
+                <div class="input-field">
+                    Nome: <input type="text" name="name" id="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    Local: <input type="text" name="place" id="">
+                </div>
+                <div class="input-field col s3">
+                    Data: <input type="date" name="date" id="">
+                </div>
+                <div class="input-field col s3">
+                    Horário: <input type="time" name="schedule" id="">
+                </div>
+            </div>
+
+            <button class="waves-effect waves-light btn" type="submit">Salvar</button>
+        </form>
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+</body>
+
+</html>
